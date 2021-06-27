@@ -5,20 +5,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "644c11ff91a9741631a2b34bcd6c4e6f"
+        API_ID = 4595792
+        BOT_TOKEN = "1882477006:AAFFDVhRAwJZ345jJQXZno3uig0mgwk-68I"
+        BASE_URL_OF_BOT = "http://t.me/manifestleech_bot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001359671280]
+        OWNER_ID = 1407322628
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = True
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://adxnclenqkjljf:c81d61642b2be68af8545a3a08d53b864b95b6f651aba223eb21a71cc199b8b6@ec2-34-233-114-40.compute-1.amazonaws.com:5432/de7s6k1l1a55pt"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
